@@ -13,7 +13,7 @@ const Header = () => {
        </Link>
 
       <Link  className='w-[2vmax] h-[2vmax] my-[1vmax] mx-[4vmax]' to="/" onClick={()=>setTab("/newpost")} > 
-      {tab === "/newpost" ? <Add className='text-[2vmax] transition-all duration-75 text-black'  />:<AddOutlined/>}
+      {tab === "/newpost" ? <Add className='text-[4vmax] transition-all duration-75 text-black'  />:<AddOutlined/>}
        </Link>
 
       <Link  className='w-[2vmax] h-[2vmax] my-[1vmax] mx-[4vmax]' to="/" onClick={()=>setTab("/search")} > 
